@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+ Coffee's shop   
+</title>
+</head>
+<body>
+
+<p>Tea image</p> 
+<button onclick="
+
+CoffeeAmount += 15;
+CupsOfCoffee += 1;
+
+alert(`${CupsOfCoffee} Cup ordered 
+Coffee: $${CoffeeAmount}`);
+">Order Coffee</button>
+
+<button onclick="
+CoffeeAmount += 30;
+CupsOfCoffee += 2;
+
+alert(`${CupsOfCoffee} Cups ordered
+Coffee: $${CoffeeAmount}`);
+">+ 2</button>
+
+
+
+<button onclick="
+CoffeeAmount = CoffeeAmount - 15;
+CupsOfCoffee = CupsOfCoffee - 1;
+
+
+alert(`1 Cup of Coffee was cancelled.
+Cup(s) Ordered: ${CupsOfCoffee}
+Coffee: $${CoffeeAmount}`);
+">Cancel oder</button>
+
+
+
+<button onclick="
+CupsOfCoffee = 0;
+CoffeeAmount = 0;
+
+alert(`Order was Reset to:
+Cup(s) of Coffee: ${CupsOfCoffee}
+Coffee amount: ${CoffeeAmount}`);
+">Re-Oder</button>
+</body>
+<script>
+let CupsOfCoffee = 0;    
+let CoffeeAmount = 0;
+
+function ZeroEnd(){
+
+
+
+}
+</script>
+</html>
